@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #f9dec9;
+  background: #887260;
 }
 
 .container {
@@ -16,7 +16,8 @@ body {
   grid-gap: 64px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
@@ -63,9 +64,9 @@ body {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 section.secondary {
@@ -206,6 +207,7 @@ footer a {
   header h3 {
     font-size: 12px;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
@@ -213,5 +215,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
