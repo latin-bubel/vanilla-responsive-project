@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #887260;
+  background: #0d0a0d;
 }
 
 .container {
@@ -20,6 +20,10 @@ body {
   display: block;
 }
 
+.instagram-embed {
+  margin: 0px auto;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -36,6 +40,15 @@ body {
   margin: 30px 0;
 }
 
+.card p {
+  margin: 0;
+}
+
+.card h4,
+h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 .card-body {
   padding: 30px;
 }
@@ -52,15 +65,16 @@ body {
 .btn {
   display: block;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #a790a5;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 section {
@@ -130,7 +144,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #282828;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -139,7 +153,7 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #282828;
   margin: 0;
 }
 
@@ -148,16 +162,21 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #282828;
   opacity: 0.7;
 }
+
 footer {
-  color: #f9dec9;
-  background-color: #3a405a;
+  color: white;
+  background-image: linear-gradient(
+      rgba(58, 65, 68, 0.9),
+      rgba(58, 65, 68, 0.9)
+    ),
+    url("../images/footer.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 footer h3 {
@@ -187,8 +206,8 @@ footer li {
 }
 
 footer a {
-  color: #f9dec9;
-  opacity: 0.7;
+  color: white;
+  opacity: 0.8;
 }
 
 @media (max-width: 900px) {
