@@ -14,6 +14,7 @@ body {
 .grid {
   display: grid;
   grid-gap: 64px;
+  align-items: center;
 }
 .img-responsive {
   width: 100%;
@@ -88,7 +89,7 @@ section.secondary {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/agheader1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,6 +133,7 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
+  border-radius: 5px;
 }
 
 main {
@@ -199,10 +201,9 @@ footer ul {
 
 footer li {
   list-style: none;
+
   margin: 0;
   padding: 0;
-  font-weight: 400;
-  font-size: 16px;
 }
 
 footer a {
