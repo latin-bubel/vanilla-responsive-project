@@ -64,6 +64,9 @@ h5 {
   width: 100%;
   aspect-ratio: 16/9;
 }
+.align-items-start {
+  align-items: start;
+}
 
 .btn {
   display: block;
